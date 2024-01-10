@@ -10,13 +10,21 @@ const MainListItems = () => {
 
   return (
     <React.Fragment>
-      <ListItemButton>
+      <ListItemButton
+        sx={{ pr: 8 }}
+        onClick={() => {
+          window.location.href = '/admin/subject'
+        }}>
         <ListItemIcon>
           <DashboardIcon />
         </ListItemIcon>
         <ListItemText primary="科目マスタ" />
       </ListItemButton>
-      <ListItemButton>
+      <ListItemButton
+        sx={{ pr: 8 }}
+        onClick={() => {
+          window.location.href = '/admin/regist'
+        }}>
         <ListItemIcon>
           <ShoppingCartIcon />
         </ListItemIcon>
