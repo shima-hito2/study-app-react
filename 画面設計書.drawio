@@ -1,1 +1,51 @@
-<mxfile host="Electron" modified="2024-01-08T12:18:48.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.8.16 Chrome/106.0.5249.199 Electron/21.4.0 Safari/537.36" etag="kqu-LsIM0qI6LwrTAWGr" version="20.8.16" type="device" pages="2"><diagram name="科目マスタ" id="EV0tBTVT23wzSEnfqWIt">zZZRb5swEMc/zT1WwhgSeIwpTaZl2rRoa7s3KzjgzeDIcQbZp58pJkChWqQ22564+9/ZPv/OlgEc5dVS0X32QSZMgOskFeBbcF3kocB8auXUKIHrNEKqeGKTOmHDfzErtmlHnrDDIFFLKTTfD8WtLAq21QONKiXLYdpOiuGqe5qykbDZUjFW73mis3YX805fMZ5m7cpoFjaRnLbJdieHjCay7Ek4BhwpKXVj5VXERA2v5dKMu3shei5MsUJfMuDwkSl3xdXjF6T0++rrDV1/u7Gz/KTiaDdsi9WnloCSxyJh9SQOYFJmXLPNnm7raGl6brRM58J4yJjjotoVmNKs6km2yCWTOdPqZFJs1LO8TkO37OjPW6RZj7w/tyK1HU/PM3dQjGG5TDNa3p8ePhHy/d16uToi/3P1eFhPMYrnsJhDiGojJLCIIfYhdCC4fQt8I1YTRF/EFwzxodmYn+dP8POuhc+9CJ8HJABTexzAYlZH/zOOZ7/HcTbF0b3aOcSTIMMQCIE4hCACYhQMAYYwejJcIHdWIfifE505fz6aCP/No+lfdDQbonFLNOzQPidq2OghtoNW8geLpJDKKIUsTCbZcSGeSVTwtDCuYLt6hpozN4/Qwso5T5J6kckuDfu4k4Xe2JJQ6zfPqutd5WpM3Ixzy17ZRuN2D+RTrPebgePf</diagram><diagram id="ODUGqKfVJqsv2JjBVL2w" name="課題登録画面">zZZfr5owGMY/TZPtYomloO1lQZwn2X8vTnZJpAKxUE+tQ/30K9CKFU6yJce5K98+ffu2/T3wCkBRefwok13+WaSMA2+SHgGaA8+DPsT6p1FOnYK9SSdkskhNUi+sijMzok07FCnbO4lKCK6KnSuuRVWxtXK0REpRu2kbwd1dd0nGBsJqnfCh+lykKre3mPX6khVZbneGU9LNlIlNNjfZ50kq6isJxQBFUgjVReUxYryBZ7l06xavzF4OJlml/mTB+VMts6eFmq+2y+/bl+TwvHz6YKr8SvjBXNgcVp0sASkOVcqaIhOAwjovFFvtknUzW2vPtZarkusR1KEpx6Rix1fPCS+3148NEyVT8qRTzALf8Dq5w7qnP7NI8yvywcyIiXE8u1TuoejAcPkLRt6QUTwDdAYIbAISAhqDGAGMAOkCD4TEBgsQE4AhCDGIpwDTq5zQrKKRUejCKBjbgpFVkJvTbvFoq7BrFZwOvfKDEa/8e1nlj1pFSMta2xCB0HPJdg61SogeDjQgLtHAGxKF6F8SDUaIYkBpC5IAChuoQ8a3IDUS5dLaKym2LBJcSK1UotKZ4abg/EZKeJFVesjZpqnQ4C10e6ZGLos0bTYZNce1byMqtTJHgnbc/eF4/l1eCDx07+LUW7u3fam+fGU/z3Ii2N5X3zL6A4+19960AOinDc8f/tDfQBvr+HfrIqPUxhp+1yqQbRWXtkzete+D7uxh0991V6HR+/8NKRppI2+FVA/7b5h27upLEMW/AQ==</diagram></mxfile>
+<mxfile host="65bd71144e" pages="2">
+    <diagram name="科目マスタ" id="EV0tBTVT23wzSEnfqWIt">
+        <mxGraphModel dx="1130" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="sOer2HirYU1rtKxV-aLZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="720" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="GWyXPBBjILGHu15RxYsL-1" value="科目名" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="160" width="450" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="GWyXPBBjILGHu15RxYsL-2" value="科目一覧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="280" width="650" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="GWyXPBBjILGHu15RxYsL-3" value="登録ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="160" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="GWyXPBBjILGHu15RxYsL-5" value="科目マスタ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="240" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="ODUGqKfVJqsv2JjBVL2w" name="課題登録画面">
+        <mxGraphModel dx="1130" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="zLwrgIFtDSkHQkqauWHI-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="720" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="zLwrgIFtDSkHQkqauWHI-2" value="科目マスタ選択セレクトボックス" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="160" width="450" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="zLwrgIFtDSkHQkqauWHI-4" value="登録ボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="520" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="zLwrgIFtDSkHQkqauWHI-5" value="課題登録" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="kqnNOeYzr0oes4tPgAR8-1" value="題名" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="240" width="450" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="kqnNOeYzr0oes4tPgAR8-2" value="コード(見本)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="320" width="450" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

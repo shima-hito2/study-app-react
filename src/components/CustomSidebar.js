@@ -4,7 +4,7 @@ import MainListItems from './ListItems'
 import { styled } from '@mui/material/styles'
 import MuiDrawer from '@mui/material/Drawer'
 
-const drawerWidth = 240
+const drawerWidth = 280
 
 const Drawer = styled(MuiDrawer, {
 	shouldForwardProp: prop => prop !== 'open'

@@ -1,9 +1,13 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.link{
+.link {
   color: #000000DE;
-  text-decoration:none;
+  text-decoration: none;
+}
+
+.registButton:hover {
+  background-color: red;
 }

@@ -16,7 +16,7 @@ import IconButton from '@mui/material/IconButton'
 import MenuIcon from '@mui/icons-material/Menu'
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft'
 // import NotificationsIcon from '@mui/icons-material/Notifications';
-import MainListItems from './ListItems'
+import MainListItems from '../components/ListItems'
 // import SubjectMaster from './master/SubjectMaster'
 
 const drawerWidth = 240

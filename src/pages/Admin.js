@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import CustomAppBar from './CustomAppBar'
-import CustomSidebar from './CustomSidebar'
+import CustomAppBar from '../components/CustomAppBar'
+import CustomSidebar from '../components/CustomSidebar'
 // import Top from './Top'
 import { Outlet } from 'react-router-dom'
 import { Box } from '@mui/material'

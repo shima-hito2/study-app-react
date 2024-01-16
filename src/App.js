@@ -3,9 +3,9 @@ import './App.css'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 
 // import Operate from './Operate';
-import Admin from './components/Admin'
-import SubjectMaster from './components/master/SubjectMaster'
-import RegistTask from './components/master/RegistTask'
+import Admin from './pages/Admin'
+import SubjectMaster from './pages/master/SubjectMaster'
+import RegistTask from './pages/master/RegistTask'
 
 const Top = () => {
 	return (

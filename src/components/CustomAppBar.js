@@ -5,12 +5,8 @@ import Typography from '@mui/material/Typography'
 import IconButton from '@mui/material/IconButton'
 import MenuIcon from '@mui/icons-material/Menu'
 import { CssBaseline } from '@mui/material'
-import { useEffect } from 'react'
 
 const CustomAppBar = props => {
-	useEffect(() => {
-		console.log('副作用関数が実行されました！')
-	}, [])
 	return (
 		<Box sx={{ flexGrow: 1, height: 64 }}>
 			<CssBaseline />

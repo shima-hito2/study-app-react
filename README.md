@@ -1,3 +1,9 @@
+
+画面外側の余白はsxで4、要素間の余白は2で統一
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
