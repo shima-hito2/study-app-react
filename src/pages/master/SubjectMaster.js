@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { Box, TextField } from '@mui/material'
 import RegistButton from '../../components/RegistButton'
 import Table from '@mui/material/Table'
@@ -26,6 +26,29 @@ const SubjectMaster = () => {
 			name: 'PHP'
 		}
 	]
+
+	const handleRegist = async () => {
+		// const data = {
+		// 	subject: subject
+		// }
+		// const res = await fetch('https://jsonplaceholder.typicode.com/todos/', {
+		// 	method: 'GET', // *GET, POST, PUT, DELETE, etc.
+		// 	mode: 'no-cors', // no-cors, *cors, same-origin
+		// 	// cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+		// 	// credentials: 'same-origin', // include, *same-origin, omit
+		// 	headers: {
+		// 		'Content-Type': 'application/json',
+		// 		'Access-Control-Allow-Origin': '*'
+		// 		// 'Content-Type': 'application/x-www-form-urlencoded',
+		// 	}
+		// 	// redirect: 'follow', // manual, *follow, error
+		// 	// referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+		// 	// body: JSON.stringify(data) // 本体のデータ型は "Content-Type" ヘッダーと一致させる必要があります
+		// })
+		const res = await fetch('http://localhost:8888/regist')
+		const data = await res.json()
+		console.log(data)
+	}
 
 	return (
 		<Box sx={{ width: '100%', pr: 30, backgroundColor: '#F3F6F999' }}>
@@ -55,7 +78,10 @@ const SubjectMaster = () => {
 						/>
 					</Box>
 
-					<RegistButton sx={{ width: 150, height: '40px' }}>
+					<RegistButton
+						sx={{ width: 150, height: '40px' }}
+						onClick={handleRegist}
+					>
 						登録
 					</RegistButton>
 				</Box>
@@ -94,6 +120,15 @@ const SubjectMaster = () => {
 					</TableContainer>
 				</Box>
 			</Box>
+			<form action='http://localhost:8888/regist' method='POST'>
+				<input type='text' name='test' />
+				<input
+					type='hidden'
+					name='_csrf'
+					value='63845086-6b57-4261-8440-97a3c6fa6b99'
+				/>
+				<button type='submit'>送信</button>
+			</form>
 		</Box>
 	)
 }
