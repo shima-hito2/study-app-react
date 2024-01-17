@@ -99,13 +99,13 @@ const RegistTask = () => {
 						id=''
 						label='説明'
 						multiline
-						value={code}
+						value={detail}
 						size='small'
 						rows={10}
 						fullWidth
 						sx={{ backgroundColor: '#fff' }}
 						onChange={e => {
-							setCode(e.target.value)
+							setDetail(e.target.value)
 						}}
 					/>
 
@@ -115,13 +115,13 @@ const RegistTask = () => {
 						id=''
 						label='コード'
 						multiline
-						value={detail}
+						value={code}
 						size='small'
 						rows={10}
 						fullWidth
 						sx={{ backgroundColor: '#fff' }}
 						onChange={e => {
-							setDetail(e.target.value)
+							setCode(e.target.value)
 						}}
 					/>
 					<Box

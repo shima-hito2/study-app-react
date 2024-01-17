@@ -10,7 +10,7 @@ import RegistTask from './pages/master/RegistTask'
 const Top = () => {
 	return (
 		<>
-			<Link to='/admin'>管理画面へ</Link>
+			<Link to='/admin/subject'>管理画面へ</Link>
 		</>
 	)
 }
