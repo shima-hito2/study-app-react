@@ -1,6 +1,6 @@
 import { Box, List } from '@mui/material'
 import React from 'react'
-import MainListItems from './ListItems'
+import MainListItems from './SideListItems'
 import { styled } from '@mui/material/styles'
 import MuiDrawer from '@mui/material/Drawer'
 

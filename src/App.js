@@ -1,19 +1,13 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 // import Operate from './Operate';
-import Admin from './pages/Admin'
-import SubjectMaster from './pages/master/SubjectMaster'
-import RegistTask from './pages/master/RegistTask'
-
-const Top = () => {
-	return (
-		<>
-			<Link to='/admin/subject'>管理画面へ</Link>
-		</>
-	)
-}
+import Admin from './pages/admin/Admin'
+import SubjectMaster from './pages/admin/master/SubjectMaster'
+import RegistTask from './pages/admin/master/RegistTask'
+import Top from './pages/Top'
+import Tasks from './pages/Tasks'
 
 function App() {
 	return (
@@ -25,11 +19,13 @@ function App() {
 		// </BrowserRouter>
 		<BrowserRouter>
 			<Routes>
-				<Route path='/' element={<Top />} />
+				<Route path='/' element={<Top />}>
+					<Route path='/task/:subjectId' element={<Tasks />} />
+				</Route>
 				<Route path='/admin' element={<Admin />}>
 					{/* elementを追加 */}
 					<Route path='/admin/subject' element={<SubjectMaster />} />
-					<Route path='/admin/regist' element={<RegistTask />} />
+					<Route path='/admin/task' element={<RegistTask />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>

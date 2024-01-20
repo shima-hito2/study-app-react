@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import CustomAppBar from '../components/CustomAppBar'
-import CustomSidebar from '../components/CustomSidebar'
+import CustomAppBar from '../../components/CustomAppBar'
+import CustomSidebar from '../../components/CustomSidebar'
 // import Top from './Top'
 import { Outlet } from 'react-router-dom'
 import { Box } from '@mui/material'
@@ -9,7 +9,6 @@ const Admin = () => {
 	const [sideBarOpen, setSideBarOpen] = useState(true)
 	const toggleDrawer = () => {
 		setSideBarOpen(!sideBarOpen)
-		console.log(sideBarOpen)
 	}
 	return (
 		<div>
