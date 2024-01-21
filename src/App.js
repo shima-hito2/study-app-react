@@ -8,6 +8,7 @@ import SubjectMaster from './pages/admin/master/SubjectMaster'
 import RegistTask from './pages/admin/master/RegistTask'
 import Top from './pages/Top'
 import Tasks from './pages/Tasks'
+import Lesson from './pages/Lesson'
 
 function App() {
 	return (
@@ -21,6 +22,10 @@ function App() {
 			<Routes>
 				<Route path='/' element={<Top />}>
 					<Route path='/task/:subjectId' element={<Tasks />} />
+					<Route
+						path='/task/:subjectId/detail/:taskId'
+						element={<Lesson />}
+					/>
 				</Route>
 				<Route path='/admin' element={<Admin />}>
 					{/* elementを追加 */}

@@ -25,7 +25,7 @@ const SubjectMaster = () => {
 
 	const setSubjectList = async () => {
 		setIsLoading(true)
-		const res = await fetch('http://localhost:8888/getSubjectAll')
+		const res = await fetch(`${process.env.REACT_APP_URL}getSubjectAll`)
 		const data = await res.json()
 		setRows(data)
 		setIsLoading(false)
@@ -54,7 +54,7 @@ const SubjectMaster = () => {
 			method: 'POST',
 			body: formData
 		}
-		await fetch('http://localhost:8888/deleteSubject', options)
+		await fetch(`${process.env.REACT_APP_URL}deleteSubject`, options)
 		await setSubjectList()
 	}
 
@@ -63,7 +63,7 @@ const SubjectMaster = () => {
 			sx={{
 				width: '100%',
 				pr: 30,
-				backgroundColor: '#F3F6F999',
+				backgroundColor: process.env.REACT_APP_BACK_COLOR,
 				position: 'relative'
 			}}
 		>
@@ -97,7 +97,7 @@ const SubjectMaster = () => {
 					<form
 						id='SubjectMasterForm'
 						method='POST'
-						action='http://localhost:8888/registSubject'
+						action={`${process.env.REACT_APP_URL}registSubject`}
 					>
 						<input
 							type='text'

@@ -27,7 +27,7 @@ const RegistTask = () => {
 
 	const setSubjectList = async () => {
 		setIsLoading(true)
-		const res = await fetch('http://localhost:8888/getSubjectAll')
+		const res = await fetch(`${process.env.REACT_APP_URL}getSubjectAll`)
 		const data = await res.json()
 		setRows(data)
 		setIsLoading(false)
@@ -52,7 +52,7 @@ const RegistTask = () => {
 			sx={{
 				width: '100%',
 				pr: 30,
-				backgroundColor: '#F3F6F999',
+				backgroundColor: process.env.REACT_APP_BACK_COLOR,
 				position: 'relative'
 			}}
 		>
@@ -96,7 +96,7 @@ const RegistTask = () => {
 					<form
 						id='RegistTaskForm'
 						method='POST'
-						action='http://localhost:8888/registTask'
+						action={`${process.env.REACT_APP_URL}registTask`}
 					>
 						<input
 							type='text'
@@ -105,28 +105,28 @@ const RegistTask = () => {
 							readOnly
 							style={{ display: 'none' }}
 						/>
-						<input
+						<textarea
 							type='text'
 							name='detail'
 							value={detail}
 							readOnly
 							style={{ display: 'none' }}
 						/>
-						<input
+						<textarea
 							type='text'
 							name='code'
 							value={code}
 							readOnly
 							style={{ display: 'none' }}
 						/>
-						<input
+						<textarea
 							type='text'
 							name='style'
 							value={style}
 							readOnly
 							style={{ display: 'none' }}
 						/>
-						<input
+						<textarea
 							type='text'
 							name='subject_id'
 							value={subject}
