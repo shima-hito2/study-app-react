@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/stydy-app-react/static/css/main.3d4c3924.css",
-    "main.js": "/stydy-app-react/static/js/main.cd611205.js",
+    "main.js": "/stydy-app-react/static/js/main.320594d2.js",
     "index.html": "/stydy-app-react/index.html",
     "main.3d4c3924.css.map": "/stydy-app-react/static/css/main.3d4c3924.css.map",
-    "main.cd611205.js.map": "/stydy-app-react/static/js/main.cd611205.js.map"
+    "main.320594d2.js.map": "/stydy-app-react/static/js/main.320594d2.js.map"
   },
   "entrypoints": [
     "static/css/main.3d4c3924.css",
-    "static/js/main.cd611205.js"
+    "static/js/main.320594d2.js"
   ]
 }
