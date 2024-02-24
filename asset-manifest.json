@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stydy-app-react/static/css/main.3d4c3924.css",
+    "main.js": "/stydy-app-react/static/js/main.cd611205.js",
+    "index.html": "/stydy-app-react/index.html",
+    "main.3d4c3924.css.map": "/stydy-app-react/static/css/main.3d4c3924.css.map",
+    "main.cd611205.js.map": "/stydy-app-react/static/js/main.cd611205.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d4c3924.css",
+    "static/js/main.cd611205.js"
+  ]
+}
